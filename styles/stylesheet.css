@@ -61,14 +61,14 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: deepskyblue;
+  background: black;
 }
 
 .logo {
   margin: 0 0 0 .45em;
 }
     .logo a {
-      color: rgb(28, 24, 22);
+      color: white;
     }
 
     .logo, .navigation {
@@ -219,6 +219,27 @@ projekter_mellemrum {
 }
 
 
+/* Footer starter her */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+}
+
+/* Footer slutter her */
+
+
 
 /* *********** media queries *********** */
 @media all and (max-width: 990px) {
@@ -259,4 +280,8 @@ projekter_mellemrum {
   .navigation li:last-of-type a {
     border-bottom: none;
   }
+	
+	footer {
+		height: 30px;
+	}
 }
