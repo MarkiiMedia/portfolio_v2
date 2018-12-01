@@ -155,7 +155,7 @@ projekter_mellemrum {
 
 /* kontakt images */
 .responsive_img_kontakt {
-    max-width: 100px;
+    max-width: 150px;
 	width: 100%;
     height: auto;
 }
@@ -281,7 +281,19 @@ footer p {
     border-bottom: none;
   }
 	
+	.responsive_img_kontakt {
+    max-width: 100px;
+	width: 100%;
+    height: auto;
+}
+	
 	footer {
 		height: 30px;
+	}
+	
+	footer img {
+		display: flex;
+		justify-content: flex-end;
+		max-width: 30px;
 	}
 }
