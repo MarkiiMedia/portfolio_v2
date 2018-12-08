@@ -138,7 +138,9 @@ table {
 
 /* Projekter starter her */
 .projekter_container {
-
+border-left: solid 1px #FF00F2;
+border-right: solid 1px #FF00F2;
+	
 }
 projekter_mellemrum {
 	padding-bottom: 20px;
@@ -147,6 +149,7 @@ projekter_mellemrum {
 .page_container {
 	margin-top: 100px;
 }
+
 
 /* Projekter slutter her her */
 
