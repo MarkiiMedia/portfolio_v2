@@ -62,6 +62,10 @@ table {
   justify-content: space-between;
   align-items: center;
   background: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+	margin-bottom: 20px;
 }
 
 .logo {
@@ -139,7 +143,11 @@ projekter_mellemrum {
 	padding-bottom: 20px;
 }
 
-/* Projekter starter her */
+.page_container {
+	margin-top: 100px;
+}
+
+/* Projekter slutter her her */
 
 
 
@@ -222,13 +230,13 @@ projekter_mellemrum {
 /* Footer starter her */
 
 footer {
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
     color: white;
-	height: 48px;
+	height: 80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -238,6 +246,35 @@ footer p {
 }
 
 /* Footer slutter her */
+
+
+/* anchor korrekt placering leg */
+
+.ctn {
+  position: relative;
+  border: solid 1px green;
+  height: 60px;
+}
+
+.ctn a {
+  position: absolute;
+  left: 0px;
+  top: -60px;
+  border: solid 1px red;
+}
+
+h2 {
+  border: solid 1px blue;
+}
+
+.ctn .target-label {
+  position: absolute;
+  left: 0px;
+  /* anchor offset + header height + header padding + header margins */
+  top: 0px;
+  margin: 0;
+}
+
 
 
 
@@ -296,4 +333,38 @@ footer p {
 		justify-content: flex-end;
 		max-width: 30px;
 	}
+	
+.page_container {
+	margin-top: 200px;
+}
+	
+	/* mobile version af anchorpoint korrekt placering, blot -180 istedet for 60 længere oppe i CSS */
+	/* skal ryddes op senere, nu er der f.eks grønne borders for at kunne se hvad der sker */
+	.ctn {
+  position: relative;
+  border: solid 1px green;
+  height: 60px;
+}
+
+.ctn a {
+  position: absolute;
+  left: 0px;
+  top: -200px;
+  border: solid 1px red;
+}
+
+h2 {
+  border: solid 1px blue;
+}
+
+.ctn .target-label {
+  position: absolute;
+  left: 0px;
+  /* anchor offset + header height + header padding + header margins */
+  top: 0px;
+  margin: 0;
+}
+	
+
+	
 }
