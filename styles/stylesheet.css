@@ -319,7 +319,7 @@ h2 {
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #FF00F2;
 }
 
 /* Add an italic font style to all quotes */
