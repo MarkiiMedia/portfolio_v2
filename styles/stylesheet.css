@@ -56,6 +56,9 @@ table {
 
 /* Egne styles herunder */
 
+html {
+	font-family: 'Roboto', sans-serif;
+}
 /* nav */
 .flex-container  {
   display: flex;
@@ -129,6 +132,7 @@ table {
 	font-size: 40px;
 	text-align: center;
 	padding-top: 20px;
+	font-weight: 500;
 }
 
 .landing_container h3 {
