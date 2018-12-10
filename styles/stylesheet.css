@@ -162,14 +162,14 @@ projekter_mellemrum {
 	margin-top: 100px;
 }
 
-/* Dette er blot leg med design, det skal nok ændres */
+/* Dette er blot leg med design, det skal nok ændres, evt med shadow istedet for decideret streg?? */
 .page_container h1 {
 	text-align: center;
 	font-weight: 500;
-	font-size: 2em;
-	color: white;
-	background-color: black;
-	min-height: 35px;
+	font-size: 3em;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	min-height: 50px;
 }
 
 
