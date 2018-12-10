@@ -162,6 +162,16 @@ projekter_mellemrum {
 	margin-top: 100px;
 }
 
+/* Dette er blot leg med design, det skal nok ændres */
+.page_container h1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 2em;
+	color: white;
+	background-color: black;
+	min-height: 35px;
+}
+
 
 /* Projekter slutter her her */
 
@@ -353,9 +363,6 @@ q {font-style: italic;}
 /* text slider leg slutter her */
 
 
-
-
-
 /* *********** media queries *********** */
 @media all and (max-width: 990px) {
   .flex-container {
@@ -415,6 +422,7 @@ q {font-style: italic;}
 .page_container {
 	margin-top: 200px;
 }
+	
 	
 	/* mobile version af anchorpoint korrekt placering, blot -180 istedet for 60 længere oppe i CSS */
 	/* skal ryddes op senere, nu er der f.eks grønne borders for at kunne se hvad der sker */
