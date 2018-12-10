@@ -99,6 +99,11 @@ table {
   background: #FF00F2;
 }
 
+.menu_active {
+	background-color: #FF00F2;
+}
+
+
 /* landing page start her */
 .page_flow_landing_page {
     background-image: url("../images/rawpixel-678089-unsplash.jpg"); /* The image used */
