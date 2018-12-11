@@ -157,9 +157,9 @@ projekter_mellemrum {
 	padding-bottom: 20px;
 }
 
-.col-1-2 h3 {
+.col-1-2 h2 {
 	font-weight: 700;
-	font-size: 1.4em;
+	font-size: 1.8em;
 }
 
 .page_container {
@@ -300,9 +300,6 @@ footer p {
   border: solid 1px red;
 }
 
-h2 {
-  border: solid 1px blue;
-}
 
 .ctn .target-label {
   position: absolute;
@@ -443,9 +440,6 @@ q {font-style: italic;}
   border: solid 1px red;
 }
 
-h2 {
-  border: solid 1px blue;
-}
 
 .ctn .target-label {
   position: absolute;
