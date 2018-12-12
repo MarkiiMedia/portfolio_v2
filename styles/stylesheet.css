@@ -222,7 +222,7 @@ projekter_mellemrum {
 /* Kontakt side slutter her */
 
 
-/* leg med til top button */
+/* leg med til top button starter her */
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -263,6 +263,7 @@ projekter_mellemrum {
     color: #fff;
     top: 5px;
 }
+/* leg med til top button slutter her  */
 
 
 /* Footer starter her */

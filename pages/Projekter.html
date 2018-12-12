@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>MM Projekter</title>
 <link rel="stylesheet" href="../styles/stylesheet.css"> <!-- Link til stylesheet -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> <!-- Added for at få JS scriptet til at virke -->
 <script src="../JavaScript/main.js"></script> <!-- Main js fil -->
 <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Viewport -->
 	
@@ -23,7 +24,26 @@
 </div>
 	<!-- nav slut -->
 	<div class="page_container">
+		
 	<!-- projekter page start -->
+		<!-- return to top button starter her -->
+		<a href="javascript:" id="return-to-top"><i class="icon-up">&uarr;</i></a> 
+		<script>
+		$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 1000);
+});
+		</script>
+		<!-- return to top button slutter her -->
+		
 		<h1>Projekter</h1>
 		
 	<div class="grid grid-pad projekter_container">
