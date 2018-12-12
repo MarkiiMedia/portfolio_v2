@@ -131,7 +131,7 @@ html {
 }
 
 .landing_container h1 {
-	font-size: 40px;
+	font-size: 60px;
 	text-align: center;
 	padding-top: 20px;
 	font-weight: 500;
@@ -149,8 +149,10 @@ html {
 
 /* Projekter starter her */
 .projekter_container {
+	/*
 border-left: solid 1px #FF00F2;
 border-right: solid 1px #FF00F2;
+	*/
 	
 }
 projekter_mellemrum {
