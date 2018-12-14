@@ -5,6 +5,7 @@
 <title>MM Forside</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles/stylesheet.css"> <!-- Link til stylesheet -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> <!-- Added for at få JS scriptet til at virke -->
 <script src="JavaScript/main.js"></script> <!-- Main js fil -->
 <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Viewport -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet"> <!-- Font -->
@@ -13,19 +14,46 @@
 
 <body>
   	<!-- nav start -->
-	<div class="flex-container">
-  <h1 class="logo"><a href="index.html">MarkiiMedia</a></h1>
-  <ul class="navigation">
-    <li><a href="pages/projekter.html">Projekter</a></li>
-    <li><a href="pages/laering.html">Læring</a></li>
-    <li><a href="pages/om_mig.html">Om Mig</a></li>
-    <li><a href="pages/kontakt.html">Kontakt</a></li>
-  </ul>
-</div>
+
 <!-- nav  slut -->
 	
 	<!-- nav2 test start her -->
-	
+	<nav>
+  <span id="brand">
+    <a href="index.html">MarkiiMedia</a>
+  </span>
+  <ul id="menu">
+    <li><a href="pages/Projekter.html">PROJEKTER</a></li>
+    <li><a href="pages/laering.html">LÆRING</a></li>
+    <li><a href="pages/om_mig.html">OM MIG</a></li>
+    <li><a href="pages/kontakt.html">KONTAKT</a></li>
+  </ul>
+
+  <div id="toggle">
+    <div class="span" id="one"></div>
+    <div class="span" id="two"></div>
+    <div class="span" id="three"></div>
+  </div>
+</nav>
+
+<div id="resize">
+  <ul id="menu">
+    <li><a href="pages/Projekter.html">PROJEKTER</a></li>
+    <li><a href="pages/laering.html">LÆRING</a></li>
+    <li><a href="pages/om_mig.html">OM MIG</a></li>
+    <li><a href="pages/kontakt.html">KONTAKT</a></li>
+  </ul>
+</div>
+	<script>
+	$(function() {
+  
+  $("#toggle").click(function() {
+    $(this).toggleClass("on");
+    $("#resize").toggleClass("active");
+  });
+  
+});
+	</script>
 	<!-- nav2 test slut her -->
 	
 	

@@ -59,55 +59,10 @@ table {
 html {
 	font-family: 'Roboto', sans-serif;
 }
+
 /* nav */
-.flex-container  {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.logo {
-  margin: 0 0 0 .45em;
-}
-    .logo a {
-      color: white;
-    }
-
-    .logo, .navigation {
-        list-style: none;
-        text-transform: uppercase;
-    }
-
-    .logo a {
-        text-decoration: none;
-        letter-spacing: .45rem;
-    }
-
-.navigation a {
-	text-decoration: none;
-	letter-spacing: .25rem;
-	display: block;
-  	padding: 1em;
-  	color: white;
-}
-
-.navigation  {
-  display: flex;
-}
 
 
-.navigation a:hover {
-  background: #FF00F2;
-}
-
-.menu_active {
-	background-color: #FF00F2;
-}
 
 
 /* landing page start her */
@@ -466,12 +421,17 @@ q {font-style: italic;}
   text-decoration: none;
 }
 
+.menu_active {
+	background-color: #FF00F2;
+}
 
 nav {
   background: black;
   height: 70px;
   z-index: 1;
+
 }
+
 
 nav #brand {
   float: left;
@@ -492,8 +452,8 @@ nav #brand a:hover {
 }
 
 nav #menu {
-  float: left;
-  left: 15%;
+  float: right;
+  
   position: relative;
 }
 
