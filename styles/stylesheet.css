@@ -370,7 +370,7 @@ q {font-style: italic;}
 
 nav {
   background: black;
-  height: 70px;
+  height: 60px;
   z-index: 1;
 
 }
@@ -380,8 +380,8 @@ nav #brand {
   float: left;
   display: block;
   margin-left: 20px;
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 60px;
   font-weight: bold;
 }
 
@@ -391,12 +391,11 @@ nav #brand a {
 }
 
 nav #brand a:hover {
-  color: #777777;
+  color: #FF00F2;
 }
 
 nav #menu {
   float: right;
-  
   position: relative;
 }
 
@@ -404,13 +403,14 @@ nav #menu li {
   display: inline-block;
   padding: 0px 30px;
   cursor: pointer;
-  line-height: 70px;
+  line-height: 60px;
   position: relative;
   transition: all 0.3s ease-out;
 }
 
 nav #menu li a {
   color: #fff;
+  
 }
 
 nav #menu li:hover {
@@ -420,7 +420,7 @@ nav #menu li:hover {
 #toggle {
   position: absolute;
   right: 20px;
-  top: 14px;
+  top: 10px;
   z-index: 999;
   width: 40px;
   height: 40px;
@@ -431,11 +431,17 @@ nav #menu li:hover {
   opacity: 0;
 }
 
+
 #toggle .span {
   height: 7px;
-  background: #333;
+  background: white;
   margin: 5px auto;
   backface-visibility: hidden;
+}
+
+/* Denne er måske LIDT for meget :D? */
+#toggle .span:hover {
+	background: #FF00F2;
 }
 
 #toggle.on #one {
@@ -482,7 +488,7 @@ nav #menu li:hover {
 }
 
 #resize #menu li:hover {
-  background: #212121;
+  background: #FF00F2;
 }
 
 #resize #menu li:hover a {
@@ -491,12 +497,13 @@ nav #menu li:hover {
 }
 
 #resize #menu li a {
-  color: #212121;
+  color: white;
 }
 
 #resize.active {
   visibility: visible;
   opacity: 0.99;
+	background: black;
 }
 
 @media (max-width: 768px) {
