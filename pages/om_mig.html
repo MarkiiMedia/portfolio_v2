@@ -2,28 +2,56 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Læring</title>
+<title>om_mig</title>
 <link rel="stylesheet" href="../styles/stylesheet.css"> <!-- Link til stylesheet -->
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> <!-- Added for at få JS scriptet til at virke -->
 <script src="../JavaScript/main.js"></script> <!-- Main js fil -->
-	
 <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Viewport -->
-	
 </head>
 
 <body>
 
 	<!-- nav start -->
-	<div class="flex-container">
-  <h1 class="logo"><a href="../index.html">MarkiiMedia</a></h1>
-  <ul class="navigation">
-    <li><a href="projekter.html">Projekter</a></li>
-    <li><a class="menu_active" href="#">Læring</a></li>
-    <li><a href="om_mig.html">Om Mig</a></li>
-    <li><a href="kontakt.html">Kontakt</a></li>
+
+	<nav>
+  <span id="brand">
+    <a href="javascript:;">MarkiiMedia</a>
+  </span>
+  <ul id="menu">
+    <li><a href="Projekter.html">PROJEKTER</a></li>
+    <li><a href="laering.html">LÆRING</a></li>
+    <li><a href="#">OM MIG</a></li>
+    <li><a href="kontakt.html">KONTAKT</a></li>
+  </ul>
+
+  <div id="toggle">
+    <div class="span" id="one"></div>
+    <div class="span" id="two"></div>
+    <div class="span" id="three"></div>
+  </div>
+</nav>
+
+<div id="resize">
+  <ul id="menu">
+    <li><a href="Projekter.html">PROJEKTER</a></li>
+    <li><a href="laering.html">LÆRING</a></li>
+    <li><a href="#">OM MIG</a></li>
+    <li><a href="kontakt.html">KONTAKT</a></li>
   </ul>
 </div>
+	<script>
+	$(function() {
+  
+  $("#toggle").click(function() {
+    $(this).toggleClass("on");
+    $("#resize").toggleClass("active");
+  });
+  
+});
+	</script>
+	
 	<!-- nav slut -->
+	
 	<!-- læring page start -->
 		<!-- return to top button starter her -->
 		<a href="javascript:" id="return-to-top"><i class="icon-up">&uarr;</i></a> 
@@ -44,7 +72,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 		<!-- return to top button slutter her -->
 	
 	<div class="page_container">
-		<h1>Læring</h1>
+		<h1>Om mig</h1>
 <div class="grid grid-pad">
     <div class="col-1-1">
        <div class="content">
