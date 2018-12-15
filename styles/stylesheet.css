@@ -247,8 +247,7 @@ projekter_mellemrum {
 
 /* Footer starter her */
 
-footer {
-    
+footer {  
     left: 0;
     bottom: 0;
     width: 100%;
@@ -262,6 +261,7 @@ footer {
 
 footer p {
 }
+
 
 /* Footer slutter her */
 
