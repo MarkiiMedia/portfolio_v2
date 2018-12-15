@@ -172,6 +172,24 @@ projekter_mellemrum {
 /* Kontakt side slutter her */
 
 
+
+/*Om mig side starter her*/
+
+#om_mig {
+	display: flex;
+	justify-content: center;
+}
+
+#om_mig img {
+	max-width: 435px;
+	width: 100%;
+    height: auto;
+}
+
+/*Om mig side slutter her*/
+
+
+
 /* leg med til top button starter her */
 #return-to-top {
     position: fixed;
@@ -335,6 +353,12 @@ q {font-style: italic;}
 	width: 100%;
     height: auto;
 }
+	
+	#om_mig img {
+    max-width: 235px;
+	width: 100%;
+    height: auto;
+	}
 	
 	footer {
 		height: 30px;
