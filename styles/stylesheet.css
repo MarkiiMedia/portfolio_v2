@@ -175,15 +175,26 @@ projekter_mellemrum {
 
 /*Om mig side starter her*/
 
-#om_mig {
+#om_mig_container {
 	display: flex;
-	justify-content: center;
+	flex-direction: row;
+	padding: 20px;
+}
+
+#om_mig_img {
+	display: flex;
+	justify-content:flex-start;
 }
 
 #om_mig img {
 	max-width: 435px;
 	width: 100%;
     height: auto;
+}
+
+.om_mig_tekst {
+	color: red;
+	padding-left: 20px;
 }
 
 /*Om mig side slutter her*/
@@ -354,7 +365,7 @@ q {font-style: italic;}
     height: auto;
 }
 	
-	#om_mig img {
+	#om_mig_img img {
     max-width: 235px;
 	width: 100%;
     height: auto;
