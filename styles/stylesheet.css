@@ -378,7 +378,7 @@ q {font-style: italic;}
 }
 	
 	#om_mig_img img {
-    max-width: 235px;
+    max-width: 100%;
 	width: 100%;
     height: auto;
 	}
