@@ -107,6 +107,8 @@ border-right: solid 1px #FF00F2;
 
 .question_overskrift {
 	font-weight: 700;
+	padding-bottom: 8px;
+	padding-top: 18px;
 }
 
 .target-label {
