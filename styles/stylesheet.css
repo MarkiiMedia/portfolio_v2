@@ -396,6 +396,11 @@ q {font-style: italic;}
 .page_container {
 	margin-top: 20px;
 }
+	
+	/* Mindre afstand til top på mobil (normal er 200px) */
+	.landing_container {
+	margin-top: 100px;
+}
 }
 
 
