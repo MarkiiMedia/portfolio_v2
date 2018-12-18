@@ -337,7 +337,10 @@ footer p {
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {
+	font-style: italic;
+	font-size: 1.2em;
+}
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
