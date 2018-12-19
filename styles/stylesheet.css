@@ -27,7 +27,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/*font: inherit;*/
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -160,6 +160,7 @@ projekter_mellemrum {
 	
 	font-weight: 700;
 	padding-top: 20px;
+	font-size: 1.2em;
 }
 
 
